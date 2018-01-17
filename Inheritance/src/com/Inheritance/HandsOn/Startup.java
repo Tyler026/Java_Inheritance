@@ -6,7 +6,7 @@ public class Startup {
 		Employee e = new Employee("tyler", "fuqua", null, 0, 0);
 		System.out.println(e.toString());
 		
-		Manager m = new Manager(null, null, null, 0, 0);
+		Manager m = new Manager(null, null, null, 0, 521759637);
 		System.out.println(m.toString());
 		
 		Designer d = new Designer(null, null, null, 0, 0);

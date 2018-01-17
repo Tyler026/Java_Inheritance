@@ -5,7 +5,7 @@ public class Employee { // --- Superclass ---
 	String lastName;
 	String companyTitle;
 	int yearsAtCompany;
-	private int SSN;
+	protected int SSN;
 	// --- Constructor ---
 	public Employee (String firstName, String lastName, String companyTitle, int yearsAtCompany, int SSN) {
 		this.firstName = firstName;
@@ -48,6 +48,16 @@ public class Employee { // --- Superclass ---
 		return firstName + " " + lastName + " has worked at " + companyTitle + " for " + yearsAtCompany + " year(s).";
 		
 		}
+	@Override
+	public int hashCode() {
+		int hash = Integer.hashCode(this.SSN);
+		return hash;
+		
+	}
+	public int verifySSN(int compare) {
+		return SSN;
+		
+	}
 }	
 
 

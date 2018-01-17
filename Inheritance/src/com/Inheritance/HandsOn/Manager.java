@@ -14,7 +14,7 @@ public class Manager extends Employee {
 	public void setjobTitle() {}
 	
 	@Override
-	public String toString() {
-		return firstName + " " + lastName + " has worked at " + companyTitle + " for " + yearsAtCompany + " year(s) as a(n) " + jobTitle;
+	public String toString() { 
+		return firstName + " " + lastName + " has worked at " + companyTitle + " for " + yearsAtCompany + " year(s) as a(n) " + jobTitle + " SSN: " + SSN;
 	}
 }
