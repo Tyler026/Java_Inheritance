@@ -14,6 +14,19 @@ public class Startup {
 		
 		Engineer en = new Engineer(null, null, null, 0, 0);
 		System.out.println(en.toString());
+		
+		SoftwareEngineer se = new SoftwareEngineer(null, null, null, 0, 0);
+		System.out.println(se.toString());
+		
+		QAEngineer qa = new QAEngineer(null, null, null, 0, 0);
+		System.out.println(qa.toString());
+		
+		MobileDesigner md = new MobileDesigner(null, null, null, 0, 0);
+		System.out.println(md.toString());
+		
+		WebDesigner wd = new WebDesigner(null, null, null, 0, 0);
+		System.out.println(wd.toString());
+		
 	}
 
 }
